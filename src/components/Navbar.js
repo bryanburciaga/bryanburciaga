@@ -23,11 +23,26 @@ function Navbar() {
                         Home
                     </Link>
                 </li>
+                <li className='nav-item'>
+                    <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                        About
+                    </Link>
+                    </li>
+                <li className='nav-item'>
+                    <Link to='/work' className='nav-links' onClick={closeMobileMenu}>
+                        Work
+                    </Link>
+                </li>
+                <li className='nav-item'>
+                    <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
         </div>
     </nav>
-    </>
-  )
+</>
+)
 }
 
 export default Navbar

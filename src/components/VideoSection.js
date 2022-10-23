@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import {  ButtonStart } from './ButtonStart';
 import './VideoSection.css';
 
 function VideoSection() {
@@ -9,12 +9,12 @@ function VideoSection() {
         <video src="/videos/video-2.mp4" autoPlay loop muted />
         <h1>Welcome to Bryan Burciaga Website</h1>
         <div className="video-btns">
-            <Button
+            <ButtonStart
              className='btns' 
              buttonStyle='btn--outline'
              buttonSize='btn--large'
              >Start
-             </Button>
+             </ButtonStart>
         </div>
     </div>
   )

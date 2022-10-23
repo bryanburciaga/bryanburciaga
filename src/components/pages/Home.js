@@ -1,13 +1,15 @@
 import React from 'react';
 import '../../App.css';
 import VideoSection from '../VideoSection';
-import Card from '../Card';
+import Cards from '../Cards';
+import Footer from '../Footer';
 
 function Home () {
     return (
         <>
             <VideoSection />
-            <Card />
+            <Cards />
+            <Footer />
         </>
     )
 }

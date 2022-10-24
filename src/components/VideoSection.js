@@ -7,7 +7,7 @@ function VideoSection() {
   return (
     <div className="video-container">
         <video src="/videos/video-2.mp4" autoPlay loop muted />
-        <h1>Welcome to Bryan Burciaga Website</h1>
+        <h1>Welcome to Bryan Burciaga's Website</h1>
         <div className="video-btns">
             <ButtonStart
              className='btns' 

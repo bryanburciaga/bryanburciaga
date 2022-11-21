@@ -10,9 +10,6 @@ function VideoSection() {
         <h1>Welcome to Bryan Burciaga's Website</h1>
         <div className="video-btns">
             <ButtonStart
-             className='btns' 
-             buttonStyle='btn--outline'
-             buttonSize='btn--large'
              >Start
              </ButtonStart>
         </div>

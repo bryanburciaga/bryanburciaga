@@ -30,39 +30,27 @@ function Footer() {
           </div>
           <small class='website-rights'>Bryan Burciaga © 2022</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            <a href='https://www.instagram.com/bryan_burciagat/'
               class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label='Instagram'>
               <i class='fab fa-instagram' />
-            </Link>
-      
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='https://www.linkedin.com/in/bryanburciaga/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
+            </a>
+            <a href='https://www.linkedin.com/in/bryanburciaga/'
+              class='social-icon-link linkedin'
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label='Facebook'>
               <i class='fab fa-linkedin' />
-            </Link>
+            </a>
+            <a href='https://github.com/bryanburciaga'
+              class='social-icon-link github'
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label='Github'>
+              <i class='fab fa-github' />
+            </a>
           </div>
         </div>
       </section>
